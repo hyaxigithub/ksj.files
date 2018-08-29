@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "注册";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/app.css" type="text/css" rel="stylesheet" />
+<div id="signup">
+    <div id="signup-box">
+        <div class="signup-header">
+            <h3>注&nbsp;&nbsp;&nbsp;&nbsp;册</h3><div class="tip" style="display:none;"></div>
+        </div>
+        <div class="signup-content">
+            <input type="text" autocomplete="off" placeholder="请输入手机号" value="" style="border-color:#ccc;">
+            <div class="image-captcha-wrapper text-button-wrapper">
+                <input type="text" autocomplete="off" placeholder="请输入图片验证码" value="" style="border-color:#ccc;">
+                <a title="换一张验证码" class="image-captcha-btn"><img src="/api/signup/captcha?rnd=0.16396411593132232"></a>
+            </div><div class="text-captcha-wrapper text-button-wrapper">
+                <input type="text" autocomplete="off" placeholder="请输入短信验证码" value="">
+                <button disabled="disabled" class="red-btn" style="background:#fa5a5a;">获取短信验证码</button>
+            </div>
+            <input type="password" autocomplete="new-password" placeholder="请输入6-16位密码，数字、字母、符号至少包含两种" value="" style="border-color:#ccc;">
+            <div class="additional-panel">
+                <a>我有邀请码</a><div class="rule-wrapper">
+                    <input id="rule" type="checkbox" checked="checked">
+                    <label for="rule">同意<a href="/about?index=3" target="blank">《构件坞服务协议》</a></label>
+                </div>
+            </div>
+            <input type="text" value="" style="display:none;">
+        </div>
+        <div class="signup-footer">
+            <button disabled="disabled" class="red-btn">注   册</button><div class="registered"><span>已有账号&nbsp;&nbsp;&nbsp;&nbsp;</span><a href="/signin">去登录</a></div>
+        </div>
+    </div>
+</div>

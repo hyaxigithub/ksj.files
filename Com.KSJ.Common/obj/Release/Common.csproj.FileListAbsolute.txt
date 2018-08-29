@@ -1,0 +1,17 @@
+F:\CSC\Common\bin\Release\KSJ.Common.dll.config
+F:\CSC\Common\bin\Release\KSJ.Common.dll
+F:\CSC\Common\bin\Release\KSJ.Common.pdb
+F:\CSC\Common\bin\Release\log4net.dll
+F:\CSC\Common\bin\Release\log4net.xml
+F:\CSC\Common\obj\Release\KSJ.Common.dll
+F:\CSC\Common\obj\Release\KSJ.Common.pdb
+F:\CSC\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+F:\CSC\WebMvc\obj\Release\Package\PackageTmp\bin\KSJ.Common.dll.config
+F:\CSC\WebMvc\obj\Release\Package\PackageTmp\bin\KSJ.Common.dll
+F:\CSC\WebMvc\obj\Release\Package\PackageTmp\bin\KSJ.Common.pdb
+F:\CSCModule\CSC\WebMvc\obj\Release\Package\PackageTmp\bin\KSJ.Common.dll.config
+F:\CSCModule\CSC\WebMvc\obj\Release\Package\PackageTmp\bin\KSJ.Common.dll
+F:\CSCModule\CSC\WebMvc\obj\Release\Package\PackageTmp\bin\KSJ.Common.pdb
+F:\CSCModule\CSC\Common\obj\Release\KSJ.Common.dll
+F:\CSCModule\CSC\Common\obj\Release\KSJ.Common.pdb
+F:\CSCModule\CSC\Common\obj\Release\Common.csprojResolveAssemblyReference.cache

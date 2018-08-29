@@ -1,0 +1,10 @@
+F:\CSCModule\CSC\DBUtility\bin\Debug\KSJ.DBUtility.dll
+F:\CSCModule\CSC\DBUtility\bin\Debug\KSJ.DBUtility.pdb
+F:\CSCModule\CSC\DBUtility\obj\Debug\Com.KSJ.DBUtility.csprojResolveAssemblyReference.cache
+F:\CSCModule\CSC\DBUtility\obj\Debug\KSJ.DBUtility.dll
+F:\CSCModule\CSC\DBUtility\obj\Debug\KSJ.DBUtility.pdb
+F:\code\Com.KSJ.DBUtility\bin\Debug\Com.KSJ.DBUtility.dll
+F:\code\Com.KSJ.DBUtility\bin\Debug\Com.KSJ.DBUtility.pdb
+F:\code\Com.KSJ.DBUtility\obj\Debug\Com.KSJ.DBUtility.dll
+F:\code\Com.KSJ.DBUtility\obj\Debug\Com.KSJ.DBUtility.pdb
+F:\code\Com.KSJ.DBUtility\obj\Debug\Com.KSJ.DBUtility.csprojResolveAssemblyReference.cache

@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <header>
+        <div class="w1400 clearfix">
+            <a id="logo" href="index.htm" tppabs="http://www.goujianwu.com/" class="left"></a>
+            <ul class="nav left clearfix">
+                <li class="left"><a href="index.htm" tppabs="http://www.goujianwu.com/" class="header-item">首页<!----></a><!----><!----></li>
+                <li class="left">
+                    <a href="public.htm" tppabs="http://www.goujianwu.com/public" class="header-item group">公共构件<span class="arrow"></span></a><!---->
+                    <ul class="sub-nav">
+                        <li class="menu-item"><a href="public.htm" tppabs="http://www.goujianwu.com/public">公共构件</a></li>
+                        <li class="menu-item"><a href="contribute.htm" tppabs="http://www.goujianwu.com/contribute">我要贡献</a></li>
+                    </ul>
+                </li>
+                <li class="left"><a href="signin-destination=http---www.goujianwu.com-private.htm" tppabs="http://www.goujianwu.com/private" class="header-item">我的构件<!----></a><!----><!----></li>
+                <li class="left">
+                    <a href="plugin.htm" tppabs="http://www.goujianwu.com/plugin" class="header-item">插件下载<!----></a>
+                    <img src="../static.goujianwu.com/resource/images/hot.png" tppabs="http://static.goujianwu.com/resource/images/hot.png" class="badget"><!---->
+                </li>
+                <li class="left"><a href="invite.htm" tppabs="http://www.goujianwu.com/invite" class="header-item">邀请有奖<!----></a><!----><!----></li>
+            </ul>
+            <div id="user-area" class="right clearfix">
+                <div id="search-box" class="left" style="display:none;">
+                    <input type="text" placeholder="请输入您要查找的族" value="" class="left">
+                    <a href="public-keyword=.htm" tppabs="http://www.goujianwu.com/public?keyword=" class="iconfont icon-icon_search1 btn right"></a>
+                </div><div class="btn-boxs right clearfix">
+                    <a href="signin-destination=.htm" tppabs="http://www.goujianwu.com/signin?destination=" class="left btn header-item">登录</a>
+                    <a href="signup.htm" tppabs="http://www.goujianwu.com/signup" class="left btn header-item">注册</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <div class="w1180">
+                <div id="about-section" class="section center-section">
+                    <ul class="about clearfix">
+                        <li class="about-item footer-item left"><a href="/about?index=1">关于我们</a></li>
+                        <li class="about-item footer-item left"><a href="/about?index=2">联系我们</a></li>
+                        <li class="about-item footer-item left"><a href="/about?index=3">服务协议</a></li>
+                    </ul>
+                </div>
+                <div id="contact-section" class="section center-section">
+                    <ul class="contact clearfix">
+                        <li class="contact-item footer-item left">电话: 021-54582103</li>
+                        <li class="contact-item footer-item left"><a href="https://shang.qq.com/wpa/qunwpa?idkey=e34101778ca7aa7b0a6a92a7d686e778e1297df609e1105b61593bcdc065a4c8" target="_blank">构件坞官方QQ交流群：854073135</a></li>
+                        <li class="contact-item footer-item left">商务邮箱：goujianwu@glodon.com</li>
+                    </ul>
+                </div> <div id="bottom-section" class="clearfix">
+                    <div id="links" class="left section">
+                        <ul class="links clearfix">
+                            <li class="link-item footer-item link left"><a href="http://www.glodon.com" target="_blank">广联达</a></li>
+                            <li class="link-item footer-item link left"><a href="http://www.archi123.com" target="_blank">知筑导航</a></li>
+                            <li class="link-item footer-item link left"><a href="http://e.fwxgx.com/" target="_blank">服务新干线</a></li>
+                            <li class="link-item footer-item link left"><a href="http://www.uibim.com/" target="_blank">BIM建筑网</a></li>
+                            <li class="link-item footer-item link left"><a href="http://www.nbims.com" target="_blank">BIM之家</a></li>
+                            <li class="link-item footer-item link left"><a href="http://www.jianzhuok.com/" target="_blank">建筑知识</a></li>
+                            <li class="link-item footer-item link left"><a href="http://www.3kgc.com/" target="_blank">算客工场</a></li>
+                            <li class="link-item footer-item link left"><a href="http://www.eeeetop.com/" target="_blank">E拓建筑网</a></li>
+                            <li class="link-item footer-item link left"><a href="http://www.chongzhu.cn" target="_blank">虫筑网</a></li>
+                            <li class="link-item footer-item link left"><a href="http://jzkt.glodon.com/" target="_blank">建筑课堂</a></li>
+                            <li class="link-item footer-item link left"><a href="http://market.blueearth.com.cn/" target="_blank">BIM应用市场</a></li>
+                        </ul>
+                    </div> <div class="logo right"></div> <div id="copyright" class="right">Copyright ©2017-2018 构件坞 京ICP备 10021606号-21</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

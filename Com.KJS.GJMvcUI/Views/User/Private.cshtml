@@ -1,0 +1,142 @@
+﻿@{
+    ViewBag.Title = "我的dgn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript" src="~/Content/resource/manifest.js"></script>
+<script type="text/javascript" src="~/Content/resource/private.js"></script>
+<script type="text/javascript" src="~/Content/resource/vendor.js"></script>
+<link href="~/Content/app.css" type="text/css" rel="stylesheet" />
+<div class="container" style="min-height: 723px;">
+    <div id="private" class="w1400 clearfix">
+        <div id="private-info" class="left" style="height: 448px; min-height: 787px;">
+            <div class="user-title"><h1>312816703@qq.com</h1><p>的构件库</p></div>
+            <ul class="user-tabs">
+                <li id="user-favorites-tab">
+                    <a class="user-tab clearfix selected">
+                        <div class="user-tab-icon"></div>
+                        <div class="user-tab-sum">2</div>
+                        <div class="user-tab-title">我收藏的</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="main-content" class="left">
+            <div id="category-area">
+                <div class="category-filter" show="true">
+                    <ul class="first-class">
+                        <!---->
+                        <li class="selected" style="width: 33.3333%;">
+                            <a href="/private?page=1&amp;categoryId=" data-category="" class="category-content clearfix">
+                                <div class="category-icon iconfont left icon-category_id_"></div>
+                                <div class="category-count right">2</div>
+                                <div class="category-label" style="padding-left: 40px;">所有</div>
+                            </a>
+                        </li>
+                        <li class="" style="width: 33.3333%;">
+                            <a href="/private?page=1&amp;categoryId=10" data-category="10" class="category-content clearfix">
+                                <div class="category-icon iconfont left icon-category_id_10"></div>
+                                <div class="category-count right">1</div>
+                                <div class="category-label" style="padding-left: 40px;">建筑</div>
+                            </a>
+                        </li>
+                        <li class="" style="width: 33.3333%;">
+                            <a href="/private?page=1&amp;categoryId=80" data-category="80" class="category-content clearfix">
+                                <div class="category-icon iconfont left icon-category_id_80"></div>
+                                <div class="category-count right">1</div>
+                                <div class="category-label" style="padding-left: 40px;">待分类</div>
+                            </a>
+                        </li>
+                    </ul><!----><!----><!---->
+                </div>
+            </div><div id="toolbar-area">
+                <ul class="toolbar clearfix">
+                    <li class="toolbar-item left">
+                        <label class="check-box-container" fontsize="14" style="padding-left: 24px; font-size: 16px; line-height: 20px;">
+                            全选<span class="checkmark" style="background-color: white; width: 16px; height: 16px; border-width: 2px; border-color: rgb(204, 204, 204); border-radius: 0px;"></span>
+                            <span class="indicator" style="top: 2px; left: 6px; width: 5px; height: 10px; border-color: white; border-right-width: 3px; border-bottom-width: 3px; opacity: 0;"></span>
+                        </label>
+                    </li>
+                    <li class="toolbar-item left">
+                        <a class="toolbar-label">
+                            <a class="button-container clearfix" style="width: 60px; height: 18px; border-color: transparent; background-color: transparent; border-radius: 0px;">
+                                <div class="button-icon iconfont" style="background-image: url(&quot;/images/icon_delete_dim_grey.png&quot;); width: 18px; height: 18px; float: left;"></div><div class="button-label" style="color: rgb(51, 51, 51); line-height: 18px; font-size: 14px;">删除</div>
+                            </a>
+                        </a>
+                    </li>
+                    <li class="toolbar-item right">
+                        <div class="drop-down-container">
+                            <div class="display-box clearfix">
+                                <div class="display-text">全部版本</div>
+                                <div class="drop-down-arrow right"></div>
+                            </div><!---->
+                        </div>
+                    </li>
+                </ul>
+            </div><!---->
+            <div class="family-content">
+                <ul id="family-list" class="clearfix">
+                    <li class="left">
+                        <a href="/detail/1422006810932960" target="_blank" title="Revit族库-检修口-铝合金检修口" class="family-container">
+                            <!----><div class="button-box clearfix">
+                                <a title="下载" class="button-container clearfix private left" style="width: 30px; height: 30px; border-color: white; background-color: white; border-radius: 16px;">
+                                    <div class="button-icon iconfont" style="background-image: url(&quot;http://static.goujianwu.com/resource/images/icon_download_dark.png&quot;); width: 30px; height: 30px; float: left;"></div>
+                                    <div class="button-label" style="color: black; line-height: 30px; font-size: 14px;"></div>
+                                </a>
+                                <a title="重命名" class="button-container clearfix private left" style="width: 30px; height: 30px; border-color: white; background-color: white; border-radius: 16px;">
+                                    <div class="button-icon iconfont" style="background-image: url(&quot;http://static.goujianwu.com/resource/images/icon_edit_dark.png&quot;); width: 30px; height: 30px; float: left;"></div>
+                                    <div class="button-label" style="color: black; line-height: 30px; font-size: 14px;"></div>
+                                </a>
+                                <a title="删除" class="button-container clearfix private left" style="width: 30px; height: 30px; border-color: white; background-color: white; border-radius: 16px;">
+                                    <div class="button-icon iconfont" style="background-image: url(&quot;http://static.goujianwu.com/resource/images/icon_delete_dark.png&quot;); width: 30px; height: 30px; float: left;"></div>
+                                    <div class="button-label" style="color: black; line-height: 30px; font-size: 14px;"></div>
+                                </a>
+                            </div>
+                            <div class="img-container"><img src="http://static.goujianwu.com/metadata/1417717939271424/thumbnails/256_0.png"></div>
+                            <div class="family-name">检修口-铝合金检修口</div><div class="corner-checkbox-container" style="opacity: 0;">
+                                <div class="corner-checkbox" style="border-color: rgba(27, 27, 27, 0.5) transparent transparent rgba(27, 27, 27, 0.5); border-width: 16px;">
+                                    <div class="check-indicator" style="width: 4.8px; height: 8px; top: -9.6px; left: -9.6px; border-right-width: 1.6px; border-bottom-width: 1.6px; border-color: white;"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="left">
+                        <a href="/detail/1422006824556256" target="_blank" title="Revit族库-单开移门" class="family-container">
+                            <!----><div class="button-box clearfix">
+                                <a title="下载" class="button-container clearfix private left" style="width: 30px; height: 30px; border-color: white; background-color: white; border-radius: 16px;">
+                                    <div class="button-icon iconfont" style="background-image: url(&quot;http://static.goujianwu.com/resource/images/icon_download_dark.png&quot;); width: 30px; height: 30px; float: left;"></div>
+                                    <div class="button-label" style="color: black; line-height: 30px; font-size: 14px;"></div>
+                                </a>
+                                <a title="重命名" class="button-container clearfix private left" style="width: 30px; height: 30px; border-color: white; background-color: white; border-radius: 16px;">
+                                    <div class="button-icon iconfont" style="background-image: url(&quot;http://static.goujianwu.com/resource/images/icon_edit_dark.png&quot;); width: 30px; height: 30px; float: left;"></div>
+                                    <div class="button-label" style="color: black; line-height: 30px; font-size: 14px;"></div>
+                                </a>
+                                <a title="删除" class="button-container clearfix private left" style="width: 30px; height: 30px; border-color: white; background-color: white; border-radius: 16px;">
+                                    <div class="button-icon iconfont" style="background-image: url(&quot;http://static.goujianwu.com/resource/images/icon_delete_dark.png&quot;); width: 30px; height: 30px; float: left;"></div>
+                                    <div class="button-label" style="color: black; line-height: 30px; font-size: 14px;"></div>
+                                </a>
+                            </div>
+                            <div class="img-container"><img src="http://static.goujianwu.com/metadata/1413669349005056/thumbnails/256_0.png"></div>
+                            <div class="family-name">单开移门</div>
+                            <div class="corner-checkbox-container" style="opacity: 0;">
+                                <div class="corner-checkbox" style="border-color: rgba(27, 27, 27, 0.5) transparent transparent rgba(27, 27, 27, 0.5); border-width: 16px;">
+                                    <div class="check-indicator" style="width: 4.8px; height: 8px; top: -9.6px; left: -9.6px; border-right-width: 1.6px; border-bottom-width: 1.6px; border-color: white;"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="pagination clearfix" currentpage="1" style="width: 327px;">
+                    <a title="上一页" href="javascript:void(0)" class="previous-page left"></a>
+                    <ul class="pages left clearfix"><li class="page-item left"><a href="javascript:void(0)" title="第1页" target="_self" class="round-mark current">01</a></li></ul>
+                    <a href="javascript:void(0)" title="下一页" class="next-page left"></a>
+                    <div class="goto-area right clearfix">
+                        <span class="left">跳转到&nbsp;&nbsp;</span>
+                        <span class="input-container left"><input type="text" class="page-item"></span>
+                        <span class="left">&nbsp;&nbsp;页&nbsp;&nbsp;</span><a title="跳转到第页" href="" class="page-item round-mark goto-button">GO</a>
+                    </div>
+                </div>
+            </div>
+        </div><!---->
+    </div>
+</div>
+

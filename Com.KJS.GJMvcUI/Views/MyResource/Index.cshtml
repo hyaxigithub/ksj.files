@@ -1,0 +1,123 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="/fonts/font_584780_7o6blk2havc2fbt9.css" />
+<div class="wrapper" style="min-height: 722px;">
+    <div class="welcome">
+        <h2 class="text">很高兴在这里遇见你</h2>
+        <p class="text line">每一滴汗水，都是自我能力的成长和认可</p>
+        <p class="text line">每一次分享，都是他人工作的左膀和右臂</p>
+        <p class="text line">每一份贡献，都是行业发展的青砖和绿瓦</p>
+        <p class="text line">构件坞一路相伴，未来的道路需要我们携手并进</p>
+    </div>
+    <h2 style="text-align: center;">截止目前，构件坞累计已收到用户贡献构件 <span class="emphasize">33247</span> 个</h2>
+    <div class="upload-area" style="position: relative;">
+        <div id="btn_addFile" class="upload-box" style="position: relative; z-index: 1;">
+            &nbsp;
+            请将rfa文件拖拽至此，或点击上传
+            <div class="note">大小不超过10M</div>
+        </div>
+        <div id="html5_1clt3e2h1icoeuj12o01dktlte3_container" class="moxie-shim moxie-shim-html5" style="position: absolute; top: 0px; left: 0px; width: 596px; height: 196px; overflow: hidden; z-index: 0;">
+            <input id="html5_1clt3e2h1icoeuj12o01dktlte3" type="file" style="font-size: 999px; opacity: 0; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" multiple="" accept=".rfa">
+        </div>
+    </div>
+    <div class="upload-wrap mt-20">
+        <!---->
+    </div>
+</div>
+<script>
+    window.config = {
+        totalCount: 33240,
+    }
+</script>
+<div id="app"></div>
+<script src="/Content/resource/lib/jquery.js"></script>
+<script src="/Content/resource/js/contribute.js"></script>
+<link rel="stylesheet" href="/Content/resource/css/common.css" />
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "../hm.baidu.com/hm.js-e02c5a587e9fa0128d855b33e027eb00"/*tpa=https://hm.baidu.com/hm.js?e02c5a587e9fa0128d855b33e027eb00*/;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="../www.googletagmanager.com/gtag/js-id=UA-112085319-1" tppabs="https://www.googletagmanager.com/gtag/js?id=UA-112085319-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-112085319-1');
+</script>
+<script type='text/javascript'>
+    !function (e, t, n, g, i) { e[i] = e[i] || function () { (e[i].q = e[i].q || []).push(arguments) }, n = t.createElement("script"), tag = t.getElementsByTagName("script")[0], n.async = 1, n.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + g, tag.parentNode.insertBefore(n, tag) }(window, document, "script", "404"/*tpa=http://www.goujianwu.com/assets.growingio.com/2.1/gio.js*/, "gio");
+    gio('init', '8a4c85753a57626c', {});
+    gio('send');
+</script>
+<script>
+    function getMessages() {
+        var defaultMessage = '<div class="user-messages"><span id="user-message"><div id="messages"><ul><li><span>您还没有新信息哦，快给我们<a href="404"/*tpa=http://www.goujianwu.com/feedback*/>提出宝贵意见</a>吧</span></li></ul></div></span></div>';
+        $.ajax({
+            type: 'get',
+            url: '404'/*tpa=http://www.goujianwu.com/api/message*/,
+            success: function (res) {
+                var html;
+                if (res.code == 'success' && res.data.length > 0) {
+                    newMessages = res.data;
+                    if (!$('.user-message').hasClass('active-message'))
+                        $('.user-message').addClass('active-message');
+                    html = '<div class="user-messages">' +
+								'<span id="user-message" class="active-message"></span>' +
+								'<div id="messages">' +
+									'<ul>';
+                    $.each(newMessages, function (i, message) {
+                        html += '<li><span>' + message.content + '</span></li>';
+                    });
+                    html += '</ul>' +
+								'</div>' +
+							'</div>';
+                }
+                else {
+                    html = defaultMessage;
+                }
+                $('404'/*tpa=http://www.goujianwu.com/header .user*/).after(html);
+            },
+            fail: function (res) {
+                var html = defaultMessage;
+                $('404'/*tpa=http://www.goujianwu.com/header .user*/).after(html);
+            }
+        });
+    }
+    $.ajax({
+        type: 'get',
+        url: 'https://account.glodon.com/user_ticket?service_key=FFirj0XTYFvDT7TkwNHOjB9OKDcBxR1v',
+        dataType: 'jsonp',
+        success: function (data) {
+            $.get('/api/loginstatus?ticket=' + data, function (res) {
+                if ($('header div').hasClass('user')) {
+                    return;
+                }
+                user = res.data;
+                gtag('set', { 'user_id': user.id + '' })
+                var html = '<div class="user">' +
+                                '<img src="' + res.data.avatar + '" class="photo-mini">' +
+                                '<div class="info">' +
+                                    '<ul>' +
+                                        '<li>' +
+                                            '<a href="https://account.glodon.com/info/detail" target="_blank">用户设置</a>' +
+                                        '</li>' +
+                                        '<li>' +
+                                            '<a href="404"/*tpa=http://www.goujianwu.com/logout*/>退出</a>' +
+                                        '</li>' +
+                                    '</ul>' +
+                                '</div>' +
+                            '</div>';
+                $('header .btn-boxs').remove();
+                $('404'/*tpa=http://www.goujianwu.com/header .nav*/).after(html);
+            })
+        }
+    })
+</script>

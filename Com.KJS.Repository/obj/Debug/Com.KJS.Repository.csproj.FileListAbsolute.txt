@@ -1,0 +1,11 @@
+F:\code\Com.KJS.Repository\bin\Debug\Com.KJS.Repository.dll
+F:\code\Com.KJS.Repository\bin\Debug\Com.KJS.Repository.pdb
+F:\code\Com.KJS.Repository\bin\Debug\Com.KSJ.DB.EntityFramework.dll
+F:\code\Com.KJS.Repository\bin\Debug\EntityFramework.dll
+F:\code\Com.KJS.Repository\bin\Debug\LinqKit.dll
+F:\code\Com.KJS.Repository\bin\Debug\Com.KSJ.DB.EntityFramework.pdb
+F:\code\Com.KJS.Repository\bin\Debug\EntityFramework.xml
+F:\code\Com.KJS.Repository\bin\Debug\LinqKit.xml
+F:\code\Com.KJS.Repository\obj\Debug\Com.KJS.Repository.csprojResolveAssemblyReference.cache
+F:\code\Com.KJS.Repository\obj\Debug\Com.KJS.Repository.dll
+F:\code\Com.KJS.Repository\obj\Debug\Com.KJS.Repository.pdb

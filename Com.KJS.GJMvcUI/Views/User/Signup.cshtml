@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "登录";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/app.css" type="text/css" rel="stylesheet" />
+<div class="container" style="min-height: 706px;">
+    <div id="signin">
+        <div id="signin-box">
+            <h3>登&nbsp;&nbsp;&nbsp;&nbsp;录</h3><input type="text" placeholder="请输入账号" value="" style="border-color:#ccc;">
+            <input type="password" placeholder="请输入密码" value="" style="border-color:#ccc;">
+            <div class="forget">
+                <div class="rem-passwd">
+                    <input type="checkbox" id="cb_remember_passwd" checked="checked">
+                    <label for="cb_remember_passwd">记住登录状态</label>
+                </div><a href="https://account.glodon.com/forgetInit" class="forget-passwd">忘记密码?</a>
+            </div><button>登 录</button>
+            <div class="line"><span>快速第三方账号登录</span></div><div class="login-method">
+                <a id="qq-login" href="https://account.glodon.com/3rd/login?source=qq&amp;amp;service_key=FFirj0XTYFvDT7TkwNHOjB9OKDcBxR1v&amp;amp;callback_url=http%3A%2F%2Fwww.goujianwu.com%2Fprivate" class="third-login"></a>
+                <a id="wechat-login" href="https://account.glodon.com/3rd/login?source=wx&amp;amp;service_key=FFirj0XTYFvDT7TkwNHOjB9OKDcBxR1v&amp;amp;callback_url=http%3A%2F%2Fwww.goujianwu.com%2Fprivate" class="third-login"></a><a id="weibo-login" href="https://account.glodon.com/3rd/login?source=sina&amp;amp;service_key=FFirj0XTYFvDT7TkwNHOjB9OKDcBxR1v&amp;amp;callback_url=http%3A%2F%2Fwww.goujianwu.com%2Fprivate" class="third-login"></a>
+            </div><div class="unregistered">还没有构件坞账号?&nbsp;&nbsp;&nbsp;&nbsp;<a href="/signup">免费注册</a></div>
+        </div>
+    </div>
+</div>
+

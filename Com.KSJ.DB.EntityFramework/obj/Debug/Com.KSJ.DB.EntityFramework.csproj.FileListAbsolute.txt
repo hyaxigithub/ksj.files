@@ -1,0 +1,12 @@
+F:\code\Com.KSJ.DB.EntityFramework\bin\Debug\Com.KSJ.DB.EntityFramework.dll
+F:\code\Com.KSJ.DB.EntityFramework\bin\Debug\Com.KSJ.DB.EntityFramework.pdb
+F:\code\Com.KSJ.DB.EntityFramework\bin\Debug\EntityFramework.dll
+F:\code\Com.KSJ.DB.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+F:\code\Com.KSJ.DB.EntityFramework\bin\Debug\EntityFramework.xml
+F:\code\Com.KSJ.DB.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+F:\code\Com.KSJ.DB.EntityFramework\obj\Debug\Com.KSJ.DB.EntityFramework.dll
+F:\code\Com.KSJ.DB.EntityFramework\obj\Debug\Com.KSJ.DB.EntityFramework.pdb
+F:\code\Com.KSJ.DB.EntityFramework\bin\Debug\Com.KSJ.DB.EntityFramework.dll.config
+F:\code\Com.KSJ.DB.EntityFramework\bin\Debug\LinqKit.dll
+F:\code\Com.KSJ.DB.EntityFramework\bin\Debug\LinqKit.xml
+F:\code\Com.KSJ.DB.EntityFramework\obj\Debug\Com.KSJ.DB.EntityFramework.csprojResolveAssemblyReference.cache

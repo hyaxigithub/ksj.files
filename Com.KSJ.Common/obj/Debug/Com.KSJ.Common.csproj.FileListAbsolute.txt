@@ -1,0 +1,16 @@
+F:\CSCModule\CSC\Common\bin\Debug\KSJ.Common.dll.config
+F:\CSCModule\CSC\Common\bin\Debug\KSJ.Common.dll
+F:\CSCModule\CSC\Common\bin\Debug\KSJ.Common.pdb
+F:\CSCModule\CSC\Common\bin\Debug\log4net.dll
+F:\CSCModule\CSC\Common\bin\Debug\log4net.xml
+F:\CSCModule\CSC\Common\obj\Debug\Com.KSJ.Common.csprojResolveAssemblyReference.cache
+F:\CSCModule\CSC\Common\obj\Debug\KSJ.Common.dll
+F:\CSCModule\CSC\Common\obj\Debug\KSJ.Common.pdb
+F:\code\Com.KSJ.Common\bin\Debug\log4net.dll
+F:\code\Com.KSJ.Common\bin\Debug\log4net.xml
+F:\code\Com.KSJ.Common\bin\Debug\Com.KSJ.Common.dll.config
+F:\code\Com.KSJ.Common\bin\Debug\Com.KSJ.Common.dll
+F:\code\Com.KSJ.Common\bin\Debug\Com.KSJ.Common.pdb
+F:\code\Com.KSJ.Common\obj\Debug\Com.KSJ.Common.dll
+F:\code\Com.KSJ.Common\obj\Debug\Com.KSJ.Common.pdb
+F:\code\Com.KSJ.Common\obj\Debug\Com.KSJ.Common.csprojResolveAssemblyReference.cache
